@@ -1,0 +1,108 @@
+funds calculator
+
+
+
+CPF calculator
+
+SA limit - 181,000 - 4.08% per annum
+MA limit - 60,000 - 4.08% per annum
+OA limit - no limit - 2.5% per annum - except if balance is above 20,000 additional 1%
+RA - created at age 55 - SA and OA balance combine <---- target total
+
+If below the age of 55:
+	overflow MA->SA->OA
+############################################################
+salary > cpf rates change as you age
+
+------------
+if aged <=35
+------------
+20% of salary per month goes to cpf
+employer pays additional 17% of your salary to cpf
+
+23% -> OA
+6% -> SA
+8% -> MA
+
+------------
+if aged 36-45
+------------
+20% of salary per month goes to cpf
+employer pays additional 17% of your salary to cpf
+
+21% -> OA
+7% -> SA
+9% -> MA
+
+------------
+if aged 46-50
+------------
+20% of salary per month goes to cpf
+employer pays additional 17% of your salary to cpf
+
+19% -> OA
+8% -> SA
+10% -> MA
+
+------------
+if aged 51-55
+------------
+20% of salary per month goes to cpf
+employer pays additional 17% of your salary to cpf
+
+15% -> OA
+11.5% -> SA
+10.5% -> MA
+
+------------
+if aged 56-60
+------------
+16% of salary per month goes to cpf
+employer pays additional 15% of your salary to cpf
+
+12% -> OA
+8.5% -> SA
+10.5% -> MA
+
+------------
+if aged 61-65
+------------
+10.5% of salary per month goes to cpf
+employer pays additional 11.5% of your salary to cpf
+
+3.5% -> OA
+8% -> SA
+10.5% -> MA
+
+------------
+if aged 66-70
+------------
+7.5% of salary per month goes to cpf
+employer pays additional 9% of your salary to cpf
+
+1% -> OA
+5% -> SA
+10.5% -> MA
+
+------------
+if aged >70
+------------
+5% of salary per month goes to cpf
+employer pays additional 7.5% of your salary to cpf
+
+1% -> OA
+1% -> SA
+10.5% -> MA
+############################################################
+
+
+input:
+	current age
+	are you employed? when is estimated date of employment?
+	target retirement age
+	current cpf balance
+	target cpf balance
+	currently salary per month
+
+output:
+	top-up amount per month
